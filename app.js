@@ -12,6 +12,11 @@ words.forEach((word, index) => {
 
 console.log(words);
 
-// secon
+// second solution
+const newArray = words.filter((word) => {
+  return word != "dog";
+});
+
+console.log(newArray);
 
 
