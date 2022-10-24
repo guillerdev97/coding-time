@@ -1,6 +1,6 @@
 "use strict";
 
-// given this array, show an array without "dog"
+// FIRST EXERCISE given this array, show an array without "dog"
 const words = ["cat", "dog", "duck", "bear"];
 
 // first solution -> array mutation
@@ -30,6 +30,7 @@ words.forEach((word) => {
 
 /* console.log(newArray2); */
 
+// SECOND EXERCISE
 const signaturesByColor = {
   "blue": ["maths", "chemistry"],
   "red": ["geography", "biology"],
@@ -52,4 +53,17 @@ signatures.forEach((signature) => {
   }
 });
 
-console.log(solutionArray);
+/* console.log(solutionArray); */
+
+// THIRD EXERCISE splice vs slice with an array
+
+const array1 = ["oranges", "apples", "strawberries"];
+console.log(array1);
+
+// new array removing oranges
+const array2 = array1.slice(1);
+console.log(array2);
+
+// same original array removing oranges
+array1.splice(0, 1);
+console.log(array1);
