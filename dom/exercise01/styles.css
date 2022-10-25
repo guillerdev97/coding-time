@@ -1,0 +1,53 @@
+/* general styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* custom color section */
+#color-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 40vh;
+  margin: auto;
+  margin-top: 20vh;
+  border: 0.1vw solid black;
+}
+
+/* custom box */
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  height: 30vh;
+  padding: 3vh 0;
+  border: 0.2vw solid black;
+}
+
+/* custom button */
+.btn {
+  padding: 0.6vh 0.6vw;
+  color: white;
+  background-color: black;
+  transition: all 0.2s ease-in;
+}
+.btn:hover {
+  cursor: pointer;
+  letter-spacing: 0.1vw;
+}
+
+/* custom color box */
+.color-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15vw;
+  height: 17vh;
+  font-weight: bold;
+  border: 0.1vw solid black;
+}

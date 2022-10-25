@@ -32,20 +32,20 @@ words.forEach((word) => {
 
 // SECOND EXERCISE
 const signaturesByColor = {
-  "blue": ["maths", "chemistry"],
-  "red": ["geography", "biology"],
-  "yellow": ["music", "design"],
+  blue: ["maths", "chemistry"],
+  red: ["geography", "biology"],
+  yellow: ["music", "design"],
 };
 
 const signatures = ["music", "chemistry", "biology"];
 
 const solutionArray = [];
 signatures.forEach((signature) => {
-  for(let [key, value] of Object.entries(signaturesByColor)) {
-    if(value.includes(signature)) {
+  for (let [key, value] of Object.entries(signaturesByColor)) {
+    if (value.includes(signature)) {
       const newObject = {
-        "value": signature,
-        "color": key
+        value: signature,
+        color: key,
       };
 
       solutionArray.push(newObject);
