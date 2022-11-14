@@ -1,0 +1,22 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+  height: 100px;
+  margin: 100px auto;
+  border: 1px solid black;
+}
+
+.box {
+  width: 15%;
+  height: 75px;
+  background-color: red;
+  border: 1px solid black;
+}
+
+#green {
+  order: 1;
+  background-color: green;
+}
